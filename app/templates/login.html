@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <form action="{{ url_for('bp_login.login') }}" method="POST">
+        <label for="user">Usuario</label>
+        <input id="user" type="text" name="user" class="form-control" />
+        <label for="password">password</label>
+        <input id="password" type="password" name="password" class="form-control" />
+        <button type="submit" class="btn btn-primary w-25 mx-auto mt-3 d-block">enviar</button>
+    </form>
+</div>
+</body>
+</html>

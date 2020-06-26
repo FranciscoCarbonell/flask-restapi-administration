@@ -1,0 +1,8 @@
+*.pyc
+app/*.pyc
+app/**/*.pyc
+.idea
+__pycache__
+app/*.db
+images
+migrations
